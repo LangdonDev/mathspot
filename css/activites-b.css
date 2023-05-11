@@ -2,10 +2,16 @@
   display: inline-block;
   width: 150px;
   margin-left: 50px;
+  margin-top: 50px;
 }
 
 .container img {
   width: 150px;
   height: auto;
   border-radius: 14px;
+  transition: all .3s ease-in-out;
+}
+
+.container img:hover {
+  transform: scale(1.2);
 }
